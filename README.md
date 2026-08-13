@@ -120,7 +120,7 @@ colab --gpu T4 exec scripts/start_server.sh
 Example of placing the repository on the runtime (running git clone on the runtime):
 
 ```bash
-colab --gpu T4 exec -- git clone https://github.com/sj55576/GoogleColabLLM.git
+colab --gpu T4 exec -- git clone https://github.com/kumakumapon/GoogleColabLLM.git
 ```
 
 ### Fallback: when the Colab CLI is unavailable
@@ -129,7 +129,7 @@ In environments where the Colab CLI cannot be used, the equivalent steps can
 be run from regular Colab notebook cells.
 
 ```python
-!git clone https://github.com/sj55576/GoogleColabLLM.git
+!git clone https://github.com/kumakumapon/GoogleColabLLM.git
 %cd GoogleColabLLM
 !bash scripts/start_server.sh
 ```
@@ -139,7 +139,7 @@ be run from regular Colab notebook cells.
 Instead of the CLI, you can also do everything — from model selection to
 server startup and testing — through a GUI in a Colab notebook.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sj55576/GoogleColabLLM/blob/main/colab/dashboard.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kumakumapon/GoogleColabLLM/blob/main/colab/dashboard.ipynb)
 
 Open the notebook and run the cells top to bottom to get a dashboard with the
 following five tabs:
