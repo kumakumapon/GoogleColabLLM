@@ -115,7 +115,7 @@ colab --gpu T4 exec scripts/start_server.sh
 リポジトリをランタイムに配置する場合の例 (git clone をランタイム上で実行):
 
 ```bash
-colab --gpu T4 exec -- git clone https://github.com/sj55576/GoogleColabLLM.git
+colab --gpu T4 exec -- git clone https://github.com/kumakumapon/GoogleColabLLM.git
 ```
 
 ### フォールバック: Colab CLI が使えない場合
@@ -124,7 +124,7 @@ Colab CLI が利用できない環境では、通常の Colab ノートブック
 同等の操作を行うことができます。
 
 ```python
-!git clone https://github.com/sj55576/GoogleColabLLM.git
+!git clone https://github.com/kumakumapon/GoogleColabLLM.git
 %cd GoogleColabLLM
 !bash scripts/start_server.sh
 ```
@@ -134,7 +134,7 @@ Colab CLI が利用できない環境では、通常の Colab ノートブック
 CLIの代わりに、Colabノートブック上のGUIでモデル選択からサーバー起動・動作確認まで
 一通り操作することもできます。
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sj55576/GoogleColabLLM/blob/main/colab/dashboard.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kumakumapon/GoogleColabLLM/blob/main/colab/dashboard.ipynb)
 
 ノートブックを開いて上から順にセルを実行すると、以下の5タブで構成される
 ダッシュボードが表示されます。
